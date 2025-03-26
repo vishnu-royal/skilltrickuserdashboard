@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon.ico" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,9 +24,24 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Skilltrick</title>
+
+      <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="assets/css/vendor.min.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="assets/css/theme.minc619.css?v=1.0">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
   </head>
-  <body>
+  <body class="has-navbar-vertical-aside navbar-vertical-aside-show-xl footer-offset">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -39,5 +54,91 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+      <!-- JS Implementing Plugins -->
+  <script src="assets/js/vendor.min.js"></script>
+
+  <script src="assets/vendor/chartjs-plugin-datalabels/dist/chartjs-plugin-datalabels.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+  <!-- JS Front -->
+  <script src="assets/js/hs.theme-appearance-charts.js"></script>
+  <script src="assets/js/demo.js"></script>
+  <!-- <script>
+    (function() {
+      
+      window.onload = function () {
+        
+
+        // INITIALIZATION OF NAVBAR VERTICAL ASIDE
+        // =======================================================
+        new HSSideNav('.js-navbar-vertical-aside').init()
+
+
+      }
+    })()
+  </script> -->
+  <script>
+    $(document).ready(function () {
+            var table = $('#userTable').DataTable({
+                paging: true,
+                searching: true,
+                lengthChange: true,
+                info: true
+            });
+            
+            $('#tableSearch').on('keyup', function () {
+                table.search(this.value).draw();
+            });
+        });
+  </script>
+  <script>
+    $(document).ready(function () {
+            var table = $('#userTable').DataTable({
+                paging: true,
+                searching: true,
+                lengthChange: true,
+                info: true
+            });
+            
+            $('#tableSearch').on('keyup', function () {
+                table.search(this.value).draw();
+            });
+        });
+  </script>
+
+  <!-- Style Switcher JS -->
+<script>
+  $(document).ready(function() {
+            // Chat input pe click karne pe suggestions dikhaye
+            $("#chatInput").on("focus", function() {
+                $(".suggestions").show();
+            });
+
+            // Search ke basis pe suggestion show kare
+            $("#chatInput").on("input", function() {
+                var searchText = $(this).val().toLowerCase();
+                $(".suggestion-btn").each(function() {
+                    var suggestionText = $(this).text().toLowerCase();
+                    if (suggestionText.includes(searchText)) {
+                        $(this).show();
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+
+            // Close button pe click karne pe suggestion hide ho jaye
+            $(".close-btn").on("click", function() {
+                $(".suggestions").hide();
+            });
+
+            // Refresh button pe click karne pe suggestion reload ho jaye
+            $(".refresh-btn").on("click", function() {
+                $("#chatInput").val(""); // Input field clear kare
+                $(".suggestion-btn").show(); // Saare suggestions dikhaye
+            });
+        });
+</script>
   </body>
 </html>

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/skilltrickuserdashboard/static/css/main.e6c13ad2.css",
+    "main.js": "/skilltrickuserdashboard/static/js/main.3cd191dd.js",
+    "static/js/453.08b9d103.chunk.js": "/skilltrickuserdashboard/static/js/453.08b9d103.chunk.js",
+    "index.html": "/skilltrickuserdashboard/index.html",
+    "main.e6c13ad2.css.map": "/skilltrickuserdashboard/static/css/main.e6c13ad2.css.map",
+    "main.3cd191dd.js.map": "/skilltrickuserdashboard/static/js/main.3cd191dd.js.map",
+    "453.08b9d103.chunk.js.map": "/skilltrickuserdashboard/static/js/453.08b9d103.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3cd191dd.js"
+  ]
+}

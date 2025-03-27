@@ -102,45 +102,100 @@ const Chat2 = () => {
 
                     <div className="chat-messages">
                         <div className="d-flex justify-content-end mb-3">
-                            <a href="#/" className="btn btn-sm btn-theme">
-                                Drive Website Traffic 1
-                            </a>
-                        </div>
-
-                        <div className="d-flex justify-content-start mb-3">
-                            <div className="message-bubble mx-100">
-                                <div className="traffic-card">
-                                    <div className="content-section">
-                                        <ol>
-                                            <li>
-                                                <strong>Scenario:</strong> Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant. Shadow figma flows team font arrange. Asset boolean create team vertical pen community underline.
-                                            </li>
-                                            <li>
-                                                <strong>Variables:</strong> Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant. Shadow figma flows team font arrange. Asset boolean create team vertical pen community underline.
-                                            </li>
-                                            <li>
-                                                <strong>Predicted Outcomes:</strong>
-                                                <ol>
-                                                    <li>Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant.</li>
-                                                    <li>Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant.</li>
-                                                    <li>Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant.</li>
-                                                </ol>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
+                            <div className="message-bubble" style={{ backgroundColor: '#36839b', color: '#fff' }}>
+                                <p className="mb-0">1 Figma ipsum component variant main layer. Image style asset strikethrough blur Union hand shadow overflow distribute flatten select component rotate.</p>
                             </div>
                         </div>
 
                         <div className="d-flex justify-content-start mb-3">
-                            <a href="/search" className="btn btn-sm btn-orange">
-                                Show Challenges &nbsp; &nbsp; &nbsp;
-                                <span>
-                                    <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M19.5814 9.50013C20.1395 8.94696 20.1395 8.04861 19.5814 7.49544L12.4382 0.414875C11.8801 -0.138294 10.9738 -0.138294 10.4158 0.414875C9.85769 0.968044 9.85769 1.86639 10.4158 2.41956L15.1258 7.08389L1.42865 7.08389C0.638427 7.08389 -2.38419e-06 7.71671 -2.38419e-06 8.5C-2.38419e-06 9.28329 0.638427 9.91611 1.42865 9.91611L15.1214 9.91611L10.4202 14.5804C9.86216 15.1336 9.86216 16.032 10.4202 16.5851C10.9783 17.1383 11.8846 17.1383 12.4427 16.5851L19.5859 9.50456L19.5814 9.50013Z" fill="#EAECF0"></path>
-                                    </svg>
-                                </span>
-                            </a>
+                            <div className="message-bubble mx-100">
+                                <p className="mb-0">Figma ipsum component variant main layer. Underline library plugin duplicate strikethrough. Union fill team pen rectangle underline flows pixel subtract style. Arrange mask spotting Italic image opacity select invite comment.</p>
+                                
+                                <div className="mt-3">
+                                    <div className="row g-4">
+                                        {/* Card 1 */}
+                                        <div className="col-md-4">
+                                            <div className="feature-card">
+                                                <div className="feature-card__header">
+                                                    <h3 className="feature-card__title">Drive Website Traffic</h3>
+                                                    <div className="feature-card__icon">
+                                                        <a href="CurrentChat">
+                                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M15.4799 1.43211C15.4834 0.64635 14.8482 0.0111225 14.0624 0.0145857L4.00464 0.0589123C3.21888 0.0623751 2.57803 0.703226 2.57457 1.48899C2.5711 2.27475 3.20633 2.90998 3.9921 2.90652L10.6208 2.87416L0.935423 12.5595C0.376652 13.1183 0.372689 14.0172 0.926558 14.5711C1.48043 15.125 2.37934 15.121 2.93811 14.5622L12.6203 4.88L12.5943 11.5024C12.5908 12.2882 13.2261 12.9234 14.0118 12.9199C14.7976 12.9165 15.4384 12.2756 15.4419 11.4898L15.4862 1.43208L15.4799 1.43211Z" fill="#36839B"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="feature-card__content">
+                                                    <div className="feature-card__item">
+                                                        Figma ipsum component variant main layer. Group variant subtract connection boolean.
+                                                    </div>
+                                                    <div className="feature-card__item">
+                                                        Figma ipsum component variant main layer. Group variant subtract connection boolean.
+                                                    </div>
+                                                    <div className="feature-card__item">
+                                                        Figma ipsum component variant main layer. Group variant subtract connection boolean.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        {/* Card 2 */}
+                                        <div className="col-md-4">
+                                            <div className="feature-card">
+                                                <div className="feature-card__header">
+                                                    <h3 className="feature-card__title">Generate Signups for Demo</h3>
+                                                    <div className="feature-card__icon">
+                                                        <a href="/CurrentChat">
+                                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M15.4799 1.43211C15.4834 0.64635 14.8482 0.0111225 14.0624 0.0145857L4.00464 0.0589123C3.21888 0.0623751 2.57803 0.703226 2.57457 1.48899C2.5711 2.27475 3.20633 2.90998 3.9921 2.90652L10.6208 2.87416L0.935423 12.5595C0.376652 13.1183 0.372689 14.0172 0.926558 14.5711C1.48043 15.125 2.37934 15.121 2.93811 14.5622L12.6203 4.88L12.5943 11.5024C12.5908 12.2882 13.2261 12.9234 14.0118 12.9199C14.7976 12.9165 15.4384 12.2756 15.4419 11.4898L15.4862 1.43208L15.4799 1.43211Z" fill="#36839B"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="feature-card__content">
+                                                    <div className="feature-card__item">
+                                                        Figma ipsum component variant main layer. Group variant subtract connection boolean.
+                                                    </div>
+                                                    <div className="feature-card__item">
+                                                        Figma ipsum component variant main layer. Group variant subtract connection boolean.
+                                                    </div>
+                                                    <div className="feature-card__item">
+                                                        Figma ipsum component variant main layer. Group variant subtract connection boolean.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        {/* Card 3 */}
+                                        <div className="col-md-4">
+                                            <div className="feature-card">
+                                                <div className="feature-card__header">
+                                                    <h3 className="feature-card__title">Build Brand Awareness</h3>
+                                                    <div className="feature-card__icon">
+                                                        <a href="/CurrentChat">
+                                                            <svg width="15" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M15.4799 1.43211C15.4834 0.64635 14.8482 0.0111225 14.0624 0.0145857L4.00464 0.0589123C3.21888 0.0623751 2.57803 0.703226 2.57457 1.48899C2.5711 2.27475 3.20633 2.90998 3.9921 2.90652L10.6208 2.87416L0.935423 12.5595C0.376652 13.1183 0.372689 14.0172 0.926558 14.5711C1.48043 15.125 2.37934 15.121 2.93811 14.5622L12.6203 4.88L12.5943 11.5024C12.5908 12.2882 13.2261 12.9234 14.0118 12.9199C14.7976 12.9165 15.4384 12.2756 15.4419 11.4898L15.4862 1.43208L15.4799 1.43211Z" fill="#36839B"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div className="feature-card__content">
+                                                    <div className="feature-card__item">
+                                                        Figma ipsum component variant main layer. Group variant subtract connection boolean.
+                                                    </div>
+                                                    <div className="feature-card__item">
+                                                        Figma ipsum component variant main layer. Group variant subtract connection boolean.
+                                                    </div>
+                                                    <div className="feature-card__item">
+                                                        Figma ipsum component variant main layer. Group variant subtract connection boolean.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -191,47 +246,39 @@ const Chat2 = () => {
 
                       <div className="chat-messages">
                         <div className="d-flex justify-content-end mb-3">
-                            <a href="#/" className="btn btn-sm btn-theme">
-                                Drive Website Traffic 1
-                            </a>
+                          <div className="message-bubble" style={{ backgroundColor: '#36839b', color: '#fff' }}>
+                            <p className="mb-0">
+                              2 Figma ipsum component variant main layer. Image style asset strikethrough blur Union hand
+                              shadow overflow distribute flatten select component rotate.
+                            </p>
+                          </div>
                         </div>
 
                         <div className="d-flex justify-content-start mb-3">
-                            <div className="message-bubble mx-100">
-                                <div className="traffic-card">
-                                    <div className="content-section">
-                                        <ol>
-                                            <li>
-                                                <strong>Scenario:</strong> Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant. Shadow figma flows team font arrange. Asset boolean create team vertical pen community underline.
-                                            </li>
-                                            <li>
-                                                <strong>Variables:</strong> Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant. Shadow figma flows team font arrange. Asset boolean create team vertical pen community underline.
-                                            </li>
-                                            <li>
-                                                <strong>Predicted Outcomes:</strong>
-                                                <ol>
-                                                    <li>Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant.</li>
-                                                    <li>Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant.</li>
-                                                    <li>Component variant main layer. Pen create subtract shadow strikethrough text scale scale. Variant move select outline prototype edit variant.</li>
-                                                </ol>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
+                          <div className="message-bubble">
+                            <p className="mb-0">
+                              Figma ipsum component variant main layer. Underline library plugin duplicate strikethrough.
+                              Union fill team pen rectangle underline flows pixel subtract style. Arrange mask spotting Italic
+                              image opacity select invite comment.
+                            </p>
+
+                            <div className="mt-3">
+                              <a href="/chat2" className="action-button">
+                                Drive Website Traffic
+                                <i className="bi bi-arrow-right"></i>
+                              </a>
+                              <a href="/chat2" className="action-button">
+                                Generate Signups for Demo
+                                <i className="bi bi-arrow-right"></i>
+                              </a>
+                              <a href="/chat2" className="action-button">
+                                Build Brand Awareness
+                                <i className="bi bi-arrow-right"></i>
+                              </a>
                             </div>
+                          </div>
                         </div>
-
-                        <div className="d-flex justify-content-start mb-3">
-                            <a href="/search" className="btn btn-sm btn-orange">
-                                Show Challenges &nbsp; &nbsp; &nbsp;
-                                <span>
-                                    <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M19.5814 9.50013C20.1395 8.94696 20.1395 8.04861 19.5814 7.49544L12.4382 0.414875C11.8801 -0.138294 10.9738 -0.138294 10.4158 0.414875C9.85769 0.968044 9.85769 1.86639 10.4158 2.41956L15.1258 7.08389L1.42865 7.08389C0.638427 7.08389 -2.38419e-06 7.71671 -2.38419e-06 8.5C-2.38419e-06 9.28329 0.638427 9.91611 1.42865 9.91611L15.1214 9.91611L10.4202 14.5804C9.86216 15.1336 9.86216 16.032 10.4202 16.5851C10.9783 17.1383 11.8846 17.1383 12.4427 16.5851L19.5859 9.50456L19.5814 9.50013Z" fill="#EAECF0"></path>
-                                    </svg>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
+                      </div>
 
                       <div className="chat-input">
                         <div className="input-btn">

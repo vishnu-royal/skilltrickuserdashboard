@@ -19,8 +19,8 @@ const Search = () => {
                   New Chat
                 </h1>
                 <ul className="dropdown-menu" aria-labelledby="chatMenuButton">
-                  <li><a className="dropdown-item" href="#">Rename</a></li>
-                  <li><a className="dropdown-item" href="#">Delete</a></li>
+                  <li><a className="dropdown-item" href="#/">Rename</a></li>
+                  <li><a className="dropdown-item" href="#/">Delete</a></li>
                 </ul>
               </div>
             </div>
